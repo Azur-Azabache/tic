@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+.board{
+    margin: 100px auto 0px;
+    border-collapse: collapse;
+}
+.board td{
+width: 150px;
+height: 150px;
+border: 2px solid white;
+text-align: center;
+font-size: 90px;
+font-family: cursive;
+color: white;
+}
+.board td:hover{
+    color: blue;
+}
+#celda4{
+    border-left: none;
+}
+#celda6{
+    border-right: none; 
+}
+#celda8{
+    border-bottom: none;
+}
+#celda2{
+    border-top: none;
+}
+#celda1, #celda3{
+    border-top: none;
+}
+#celda7, #celda9{
+    border-bottom: none;
+}
+#celda1, #celda7{
+    border-left: none;
+}
+#celda3, #celda9{
+    border-right: none;
+}
+button{
+    padding: 10px;
+    margin-top: 100px;
+    font-family: fantasy;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    outline: none;
+}
